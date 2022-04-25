@@ -1,0 +1,9 @@
+.breadcrumbs__item{
+  color: #f2f2f2;
+}
+.content {
+  color: #f2f2f2;
+  padding-top: 20px;
+  width: 100%;
+  overflow-y: scroll;
+}

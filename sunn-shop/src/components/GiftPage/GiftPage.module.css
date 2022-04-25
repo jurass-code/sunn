@@ -1,0 +1,118 @@
+.titlePage {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 60px 0 50px;
+  text-transform: uppercase;
+}
+.example {
+  width: 570px;
+}
+.form {
+  width: 445px;
+}
+.description {
+  background-image: url("../../assets/img/Brush_background.svg");
+  background-repeat: no-repeat;
+  padding: 40px 160px;
+}
+.description__text {
+  padding-bottom: 15px;
+}
+.text2_pink {
+  color: #e155b0;
+}
+.sertificate {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.sertificate__title {
+  color: #f2f2f2;
+  padding-bottom: 20px;
+}
+.sertificateContent {
+  padding: 50px;
+  background-color: #303030;
+  border-radius: 20px;
+  background-image: url("../../assets/img/LogotypeSertificate.svg"), url("../../assets/img/BackgroundSetificate.svg"),
+    url("../../assets/img/Sertificate_wow.svg");
+  background-repeat: no-repeat;
+  background-position-x: right, right, left;
+  background-position-y: 30px, top, 530px;
+}
+
+.sertificateContent__title {
+  font-family: "Abys";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #f2f2f2;
+  max-width: 310px;
+}
+.sertificateContent__top {
+  padding-bottom: 270px;
+}
+.sertificate__title_yellow {
+  font-weight: 400;
+  color: #f4d36d;
+}
+.nominal {
+  display: flex;
+  align-items: center;
+  color: #f2f2f2;
+  padding-bottom: 150px;
+}
+.nominal__text {
+  padding-right: 10px;
+}
+.nominal__price {
+  padding: 10px 24px;
+  position: relative;
+}
+.nominal__priceImg {
+  position: absolute;
+  stroke: #f4d36d;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.congratulation {
+  padding: 50px 0 20px;
+}
+.congratulationFrom {
+  display: flex;
+  color: #f2f2f2;
+}
+.congratulationFrom__name {
+  padding-left: 10px;
+}
+.congratulationText {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 0px 24px 24px 24px;
+  background: #f2f2f2;
+}
+.congratulationText__to {
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #e77ac1;
+  padding-bottom: 5px;
+}
+
+.congratulationText__Name {
+  padding-left: 5px;
+  font-weight: 700;
+}
+.congratulationText__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #303030;
+}

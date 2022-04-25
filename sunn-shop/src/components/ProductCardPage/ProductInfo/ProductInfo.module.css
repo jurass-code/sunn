@@ -1,0 +1,168 @@
+.backgroundProductInfo {
+  background-image: url("../../../assets/img/Product_card_brush.svg");
+  background-repeat: no-repeat;
+}
+.productInfo {
+  max-width: 475px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color: #f2f2f2;
+  padding-bottom: 10px;
+}
+.category {
+  color: #f2f2f2;
+  padding-bottom: 40px;
+}
+.excerpt {
+  color: #bdbdbd;
+  padding-bottom: 40px;
+}
+.sectionPrice {
+  padding: 40px 0;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f2f2f2;
+}
+.giftBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+.deliverySection {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #f2f2f2;
+}
+.deliveryImg {
+  min-width: 30px;
+}
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.advantage {
+  max-width: 280px;
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.advantage:first-child,
+.advantage:last-child {
+  max-width: 200px;
+}
+.modal {
+  display: none;
+}
+.modal.active {
+  display: block;
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .productInfo {
+    max-width: 450px;
+  }
+  .content {
+    justify-content: space-around;
+  }
+  .category {
+    padding-bottom: 30px;
+  }
+  .excerpt {
+    padding-bottom: 20px;
+  }
+  .sectionPrice {
+    padding: 30px 0;
+  }
+  .advantage {
+    max-width: 240px;
+  }
+  .advantage:first-child,
+  .advantage:last-child {
+    max-width: 180px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .productInfo {
+    max-width: 324px;
+  }
+  .content {
+    justify-content: space-around;
+  }
+  .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .priceBtn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .giftBtn {
+    margin-top: 15px;
+  }
+  .sectionPrice {
+    padding: 15px 0 30px;
+  }
+  .advantage {
+    max-width: 130px;
+  }
+  .advantage:first-child,
+  .advantage:last-child {
+    max-width: 130px;
+  }
+  .category {
+    padding-bottom: 30px;
+  }
+  .excerpt {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .priceBtn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .productInfo {
+    max-width: 100%;
+  }
+  .advantage {
+    max-width: 130px;
+  }
+  .advantage:first-child,
+  .advantage:last-child {
+    max-width: 130px;
+  }
+  .advantages {
+    max-width: 440px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 70px 0;
+  }
+  .category {
+    padding-bottom: 30px;
+  }
+  .excerpt {
+    padding-bottom: 20px;
+  }
+  .sectionPrice {
+    padding: 10px 0 35px;
+  }
+}

@@ -1,0 +1,57 @@
+.postbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.instSection__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.title {
+  color: #f2f2f2;
+}
+.instName {
+  color: #f4d36d;
+}
+.content {
+  padding: 100px 0;
+}
+.postImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.postEL {
+  width: 370px;
+  height: 370px;
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .postEL {
+    width: 310px;
+    height: 310px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .postEL {
+    width: 226px;
+    height: 226px;
+  }
+}
+@media (max-width: 767px) {
+  .postEL {
+    width: 145px;
+    height: 145px;
+  }
+  .instSection__top {
+    padding-bottom: 35px;
+  }
+  .instName{
+    display: none;
+  }
+  .postbox{
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}

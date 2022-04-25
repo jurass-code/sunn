@@ -1,0 +1,41 @@
+.content {
+  width: 475px;
+  background: #303030;
+  border-radius: 13px;
+  padding: 40px;
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../../../assets/img/modal_arrow_pink.svg");
+  background-repeat: no-repeat;
+  background-position: 64px bottom;
+}
+.text {
+  padding-bottom: 20px;
+}
+.text:last-child {
+  padding-bottom: 30px;
+}
+.text_withHeart {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.hintImageBox {
+  padding: 20px;
+  background-image: url("../../../../assets/img/hintImgBg.svg");
+  background-repeat: no-repeat;
+  align-self: flex-end;
+  position: relative;
+}
+.cloud {
+  position: absolute;
+  top: 20px;
+  left: -185px;
+}
+.hintImage {
+  width: 175px;
+  height: 200px;
+  object-fit: cover;
+}

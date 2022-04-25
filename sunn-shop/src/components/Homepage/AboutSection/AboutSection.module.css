@@ -1,0 +1,67 @@
+.content {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutMeTitle {
+  color: #f2f2f2;
+}
+.aboutMeTitle_yellow {
+  color: #f4d36d;
+}
+.leftColumn {
+  max-width: 570px;
+}
+.rightColumn {
+  max-width: 475px;
+}
+.box__text {
+  color: #f2f2f2;
+  padding-bottom: 50px;
+}
+.rightColumn__title {
+  padding-bottom: 15px;
+}
+.text_link {
+  color: #f2f2f2;
+}
+.text_yellow {
+  color: #f4d36d;
+}
+.signature_text {
+  color: #f2f2f2;
+}
+.sign {
+  color: #f4d36d;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .rightColumn {
+    max-width: 450px;
+  }
+  .leftColumn {
+    max-width: 400px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .rightColumn {
+    max-width: 354px;
+  }
+  .leftColumn {
+    max-width: 236px;
+  }
+}
+@media (max-width: 767px) {
+  .content {
+    padding-top: 70px;
+    flex-direction: column;
+  }
+  .box__text {
+    padding-bottom: 35px;
+  }
+  .aboutMeTitle{
+    max-width: 400px;
+    padding-bottom: 35px;
+  }
+}

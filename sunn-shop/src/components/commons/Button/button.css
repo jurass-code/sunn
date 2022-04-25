@@ -1,0 +1,142 @@
+.button {
+  box-sizing: border-box;
+  border: none;
+  background: #f4d36d;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #303030;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgArrow {
+  margin-left: 10px;
+  fill: #303030;
+}
+.imgGift {
+  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: #e77ac1;
+  transition: stroke 0.3s;
+}
+.button:hover .imgGift,
+.button:focus .imgGift {
+  stroke: #f2f2f2;
+}
+.button:disabled .imgGift {
+  stroke: #303030;
+}
+.large {
+  padding: 21px 0;
+  width: 100%;
+  text-align: center;
+}
+.medium {
+  padding: 19px 30px;
+}
+.button.large:hover,
+.button.large:focus,
+.button.medium:hover,
+.button.medium:focus {
+  background: #f2c94c;
+}
+.button.large:active,
+.button.medium:active {
+  color: #191a18;
+}
+.button.large:disabled,
+.button.medium:disabled {
+  background: #e0e0e0;
+}
+.large_gift {
+  background: none;
+  color: #e77ac1;
+  border: 1px solid #e77ac1;
+  transition: all 0.3s;
+}
+.button.large_gift:hover,
+.button.large_gift:focus {
+  background: #f3bbe0;
+  border: 1px solid #f3bbe0;
+  color: #f2f2f2;
+}
+
+.button.large_gift:active {
+  background: #e77ac1;
+  border: 1px solid #e77ac1;
+}
+
+.button.large_gift:disabled {
+  color: #303030;
+  border: 1px solid #e0e0e0;
+  background: #e0e0e0;
+}
+.button_ellipse {
+  padding: 32px 47px;
+  background: none;
+  color: #f4d36d;
+  stroke: #f4d36d;
+  position: relative;
+  transition: all 0.3s;
+}
+.imgEllipse {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  fill: #303030;
+  fill-opacity: 0;
+  transition: 0.3s;
+}
+.btnText {
+  z-index: 2;
+}
+.button.button_ellipse:hover,
+.button.button_ellipse:focus {
+  color: #ffffff;
+}
+.button.button_ellipse:hover .imgEllipse,
+.button.button_ellipse:focus .imgEllipse {
+  fill: #f4d36d;
+  fill-opacity: 1;
+}
+
+.button.button_ellipse:active .imgEllipse {
+  fill: #f2c94c;
+}
+.button.button_ellipse:disabled .imgEllipse {
+  fill-opacity: 0;
+  stroke: #e0e0e0;
+}
+.button.button_ellipse:disabled {
+  color: #e0e0e0;
+}
+.button_cross {
+  background: none;
+  padding: 0;
+}
+.imgCross {
+  stroke: #f2f2f2;
+}
+.button_cross:hover .imgCross {
+  stroke: #f4aaaa;
+}
+.button_cross:active .imgCross {
+  stroke: #f37f7f;
+}
+.button_cross:disabled .imgCross {
+  stroke: #828282;
+}
+@media (max-width: 1024px) {
+  .button {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

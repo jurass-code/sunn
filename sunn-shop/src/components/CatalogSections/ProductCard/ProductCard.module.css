@@ -1,0 +1,93 @@
+.card__photo {
+  width: 350px;
+  height: 400px;
+  border: 2px solid #191a18;
+  transition: border 0.3s;
+}
+.background {
+  max-width: 350px;
+}
+.background:hover .card__photo {
+  border: 2px solid #e77ac1;
+}
+h5.card__title {
+  color: #f2f2f2;
+  margin-top: 30px;
+}
+.card__price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f2f2f2;
+  padding: 17px 25px;
+  position: relative;
+  margin-top: 12px;
+  display: inline-block;
+  text-align: center;
+  min-width: 147px;
+}
+.card__priceImg {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 137px;
+}
+.card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.background {
+  transition: color 0.3s;
+  height: 100%;
+}
+.background:hover .card__title,
+.background:focus .card__title {
+  color: #e77ac1;
+}
+.background:active .card__title {
+  color: #f2c94c;
+}
+.subtitle {
+  padding-top: 20px;
+  color: #828282;
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .card__photo {
+    height: 331px;
+    width: 290px;
+  }
+  .background {
+    max-width: 290px;
+  }
+  h5.card__title {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card__photo {
+    width: 206px;
+    height: 235px;
+  }
+  .background {
+    max-width: 206px;
+  }
+  h5.card__title {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card__photo {
+    width: 149px;
+    height: 170px;
+  }
+  .background {
+    max-width: 149px;
+  }
+  h5.card__title {
+    margin-top: 5px;
+  }
+}

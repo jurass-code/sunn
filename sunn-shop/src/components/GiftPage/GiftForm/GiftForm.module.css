@@ -1,0 +1,63 @@
+.sliderInpBox {
+  position: relative;
+  background: #e0e0e0;
+  border-radius: 5px;
+  padding: 10px 20px 20px;
+  margin-bottom: 46px;
+}
+.sliderInp {
+  position: absolute;
+  width: 100%;
+  bottom: -37px;
+  left: 0;
+}
+.textarea {
+  min-height: 80px;
+}
+.price {
+  color: #f2f2f2;
+  padding: 24px 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin: 50px 0;
+}
+.price__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.checkboxText {
+  color: #f2f2f2;
+}
+.formikCheckbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formikItem_email {
+  padding-bottom: 40px;
+}
+.btnBox {
+  margin-top: 25px;
+}
+.btnBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(25, 26, 24, 0.6);
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  align-items: flex-start;
+  z-index: 999999;
+}

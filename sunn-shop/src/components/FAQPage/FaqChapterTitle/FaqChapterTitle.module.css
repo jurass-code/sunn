@@ -1,0 +1,9 @@
+.box {
+  background-image: url("../../../assets/img/faqbgtitle.svg");
+  background-repeat: no-repeat;
+  padding: 0 15px;
+}
+.title {
+  line-height: 64px;
+  color: #f3bbe0;
+}

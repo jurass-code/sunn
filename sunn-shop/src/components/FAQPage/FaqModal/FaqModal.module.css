@@ -1,0 +1,130 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(25, 26, 24, 0.6);
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.window {
+  background: #f2f2f2;
+  border-radius: 13px;
+  width: 585px;
+}
+.content {
+  position: relative;
+  padding: 40px 70px;
+}
+.cross {
+  fill: black;
+  stroke: black;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+  color: #303030;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+.textarea {
+  resize: none;
+  height: 80px;
+}
+.checkbox {
+  position: relative;
+  background: #e0e0e0;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  width: 20px;
+  height: 20px;
+  transition: border 0.3s;
+}
+.formikCheckbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox:hover,
+.checkbox:focus {
+  border: 1px solid #f2c94c;
+}
+.checkboxActive {
+  border: 1px solid #f2c94c;
+}
+.checked {
+  position: absolute;
+}
+.checkboxLabel {
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+.checkboxText {
+  color: #303030;
+}
+.unchecked {
+  stroke: #e0e0e0;
+}
+.active {
+  stroke: #f2c94c;
+}
+
+.input {
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px; 
+  padding: 16px 20px;
+  color: #303030;
+  transition: border 0.3s;
+  width: 100%;
+}
+.input:hover {
+  border: 2px solid #f2c94c;
+}
+.input:focus {
+  border: 2px solid #f2c94c;
+}
+.input:disabled {
+  border: 2px solid #e0e0e0;
+  color: #828282;
+}
+.input.invalid {
+  border: 2px solid #f37f7f;
+}
+::-webkit-input-placeholder {
+  color: #303030;
+}
+::-moz-placeholder {
+  color: #303030;
+}
+:-moz-placeholder {
+  color: #303030;
+}
+:-ms-input-placeholder {
+  color: #303030;
+}
+.formikItem {
+  position: relative;
+  padding-bottom: 15px;
+}
+.formikItem_pad {
+  padding-bottom: 35px;
+}
+.errorMessage {
+  color: #f37f7f;
+  position: absolute;
+}
+.submit {
+  width: 100%;
+  margin-top: 20px;
+}

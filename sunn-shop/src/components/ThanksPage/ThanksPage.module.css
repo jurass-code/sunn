@@ -1,0 +1,27 @@
+.title {
+  color: #f4d36d;
+  text-align: center;
+}
+.textBox {
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 30px;
+}
+.text {
+  margin-bottom: 100px;
+}
+
+.subTitleLink {
+  color: #f4d36d;
+}
+
+.bg {
+  background-image: url("../../assets/img/hand.svg"), url("../../assets/img/scribble.svg"), url("../../assets/img/star01.svg"),
+    url("../../assets/img/star02.svg");
+  background-repeat: no-repeat;
+  background-position: 60px, right 50px,75% 80px,80% 100px;
+  padding: 100px 0 150px;
+}
+
+
+

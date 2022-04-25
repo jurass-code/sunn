@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Abys';
+    src: local('Abys Regular'), local('Abys-Regular'),
+        url('Abys-Regular.woff2') format('woff2'),
+        url('Abys-Regular.woff') format('woff'),
+        url('Abys-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

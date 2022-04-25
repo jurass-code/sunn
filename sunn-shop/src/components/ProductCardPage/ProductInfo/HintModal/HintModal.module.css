@@ -1,0 +1,33 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(25, 26, 24, 0.6);
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.window {
+  background: #f2f2f2;
+  border-radius: 13px;
+}
+.content {
+  position: relative;
+  padding: 40px 70px;
+}
+.cross {
+  fill: #828282;
+  stroke: #828282;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.mainContent {
+  display: flex;
+  gap: 50px;
+}

@@ -1,0 +1,223 @@
+@import url("./components/commons/Button/button.css");
+@import url("./components/commons/Input/input.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+input,
+textarea,
+select {
+  outline: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.preloader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191a18;
+}
+.App {
+  background-color: #191a18;
+}
+.AppWrapper {
+  max-width: 1440px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.AppContent {
+  flex: 1 0 auto;
+}
+.AppFooter {
+  flex: 0 0 auto;
+}
+.wrapper {
+  padding: 0 165px;
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .wrapper {
+    padding: 0 47px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+  .wrapper {
+    padding: 0 45px;
+  }
+}
+@media (max-width: 767px){
+  .wrapper {
+    padding: 0 15px;
+  }
+}
+.text1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.text2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.text2_bold {
+  font-weight: bold;
+}
+.text3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.text3_semibold {
+  font-weight: 600;
+  line-height: 17px;
+}
+.text3_bold {
+  font-weight: bold;
+  line-height: 17px;
+}
+.text4 {
+  font-family: Caveat;
+  font-size: 30px;
+  line-height: 38px;
+}
+.text5 {
+  font-family: Abys;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.small_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+.super_small_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.Headline1 {
+  font-family: Abys;
+  font-size: 110px;
+  line-height: 132px;
+  font-weight: 400;
+}
+.Headline2 {
+  font-family: Abys;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;
+}
+.Headline3 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+.Headline4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.Headline5 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.Headline6 {
+  font-family: Abys;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.Headline7 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+}
+.Headline8 {
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 49px;
+  font-weight: 400;
+}
+.Headline9 {
+  font-family: Abys;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
+}
+.Headline10 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 52px;
+}
+.Headline11 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.Link {
+  color: #f2f2f2;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.Link_underline {
+  text-decoration: underline;
+}
+.Link:hover,
+.Link:focus {
+  color: #f4d36d;
+}
+.Link:active {
+  color: #f2c94c;
+}
+.test {
+  background-color: white;
+}
+::-webkit-scrollbar {
+  width: 0;
+}

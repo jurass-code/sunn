@@ -1,0 +1,24 @@
+.content{
+  max-width: 665px;
+}
+.title {
+  color: #e77ac1;
+  margin-top: 60px;
+}
+.textBox {
+  color: #f2f2f2;
+  margin-top: 50px;
+}
+.aboutMe {
+  margin-bottom: 50px;
+}
+
+.textCard_num {
+  color: #f2c94c;
+}
+.donatBg{
+  background-image: url('../../assets/img/donatImg.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 100px;
+}

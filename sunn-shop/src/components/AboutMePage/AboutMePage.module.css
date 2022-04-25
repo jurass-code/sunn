@@ -1,0 +1,118 @@
+.delivery {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 60px;
+}
+.delivery__title {
+  color: #f4d36d;
+  margin-bottom: 50px;
+}
+.delivery__content {
+  max-width: 445px;
+}
+.delivery__contentForMosc {
+  max-width: 570px;
+  position: relative;
+  padding: 70px 90px;
+}
+.delivery__text {
+  color: #f2f2f2;
+}
+
+.delivery__text_marg {
+  margin: 30px 0;
+}
+
+.delivery__contentForMoscImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.delivery__contentForMosc_list {
+  list-style-type: none;
+}
+.delivery__contentForMosc_list li::before {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 3px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  margin-right: 10px;
+}
+
+.payment {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.payment__contentLeft {
+  max-width: 445px;
+}
+.payment__title {
+  color: #f4d36d;
+  margin-bottom: 50px;
+}
+.payment__contentLeftText {
+  color: #f2f2f2;
+  margin-bottom: 50px;
+}
+.payment__arrow {
+  float: right;
+}
+
+.payment__instruction {
+  padding: 105px 90px 60px;
+  max-width: 570px;
+  position: relative;
+  background-image: url("../../assets/img/pinkBlur.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.payment__instructionBlur {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+}
+.payment__instructionTitle {
+  margin-bottom: 25px;
+}
+.payment__instructionText_marg {
+  margin: 10px 0;
+}
+.payment__instructionImportantImg {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+.contacts {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__info {
+  max-width: 445px;
+}
+.contacts__title {
+  color: #f4d36d;
+  margin-bottom: 50px;
+}
+.contacts__text {
+  color: #f2f2f2;
+}
+.contacts__text_margOne {
+  margin-bottom: 15px;
+}
+.contacts__text_margTwo {
+  margin-bottom: 30px;
+}
+.contacts__textLink {
+  text-decoration: none;
+  color: #f4d36d;
+}
+.contact__inst {
+  width: 50px;
+  height: 50px;
+}

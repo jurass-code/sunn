@@ -1,0 +1,43 @@
+::-webkit-input-placeholder {
+  color: #303030;
+}
+::-moz-placeholder {
+  color: #303030;
+}
+:-moz-placeholder {
+  color: #303030;
+}
+:-ms-input-placeholder {
+  color: #303030;
+}
+.formikItem {
+  position: relative;
+  padding-bottom: 15px;
+}
+.input {
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: #303030;
+  transition: border 0.3s;
+  width: 100%;
+  min-height: 55px;
+}
+.input:hover {
+  border: 2px solid #f2c94c;
+}
+.input:focus {
+  border: 2px solid #f2c94c;
+}
+.input:disabled {
+  border: 2px solid #e0e0e0;
+  color: #828282;
+}
+.input.invalid {
+  border: 2px solid #f37f7f;
+}
+.errorMessage {
+  color: #f37f7f;
+  position: absolute;
+}
